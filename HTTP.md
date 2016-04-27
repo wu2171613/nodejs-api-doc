@@ -50,7 +50,7 @@ HTTP消息头可能是一个类似于以下例子的对象：
 
 #### http.createClient([port][, host])#
 
-这个函数已经被启用。请使用`http.request()`替代。构造一个新的HTTP客户端。`port`和`host`指定了需要连接的目标服务器。
+这个函数已经被弃用。请使用`http.request()`替代。构造一个新的HTTP客户端。`port`和`host`指定了需要连接的目标服务器。
 
 #### Class: http.Server#
 
